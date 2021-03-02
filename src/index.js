@@ -35,7 +35,7 @@ performOperation("12", "4.32", "is the shit");
 console.log(greeting("Is cool"));
  */
 
-function factorial(n) {
+/* function factorial(n) {
   if (n === 0 || n === 1) {
     return 1;
   } else {
@@ -43,3 +43,14 @@ function factorial(n) {
   }
 }
 console.log(factorial(5));
+ */
+
+function area(r) {
+  const PI = Math.PI;
+
+  // Print the area of the circle:
+  console.log("Area is " + PI * r * r);
+  // Print the perimeter of the circle:
+  console.log("Perimeter is " + PI * 2 * r);
+}
+console.log(area(5));
