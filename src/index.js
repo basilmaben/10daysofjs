@@ -26,10 +26,20 @@ performOperation("12", "4.32", "is the shit");
 
  */
 
-function greeting(parameterVariable) {
+/* function greeting(parameterVariable) {
   // This line prints 'Hello, World!' to the console:
   console.log("Hello, World!");
   // Write a line of code that prints parameterVariable to stdout using console.log:
   console.log(parameterVariable);
 }
 console.log(greeting("Is cool"));
+ */
+
+function factorial(n) {
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+console.log(factorial(5));
