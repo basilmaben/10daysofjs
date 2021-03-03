@@ -45,7 +45,7 @@ console.log(greeting("Is cool"));
 console.log(factorial(5));
  */
 
-function area(r) {
+/* function area(r) {
   const PI = Math.PI;
 
   // Print the area of the circle:
@@ -53,4 +53,4 @@ function area(r) {
   // Print the perimeter of the circle:
   console.log("Perimeter is " + PI * 2 * r);
 }
-console.log(area(5));
+console.log(area(5)); */
