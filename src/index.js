@@ -54,3 +54,19 @@ console.log(factorial(5));
   console.log("Perimeter is " + PI * 2 * r);
 }
 console.log(area(5)); */
+
+function getGrade(score) {
+  // Write your code here
+  if (score <= 5) {
+    return "F";
+  } else if (score <= 10) {
+    return "E";
+  } else if (score <= 15) {
+    return "D";
+  } else if (score <= 20) {
+    return "C";
+  } else if (score <= 25) {
+    return "B";
+  } else return "A";
+}
+console.log(getGrade(65));
