@@ -70,3 +70,21 @@ console.log(area(5)); */
   } else return "A";
 }
 console.log(getGrade(65)); */
+
+function vowelsAndConsonants(s) {
+  const vovwels = "aeiou";
+
+  var cons = "";
+
+  for (let i = 0; i < s.length; i++) {
+    if (vovwels.includes(s[i])) {
+      console.log(s[i]);
+    } else {
+      cons += s[i] + "\n";
+    }
+  }
+
+  console.log(cons);
+}
+
+console.log(vowelsAndConsonants("javascriptloop"));
