@@ -55,7 +55,7 @@ console.log(factorial(5));
 }
 console.log(area(5)); */
 
-function getGrade(score) {
+/* function getGrade(score) {
   // Write your code here
   if (score <= 5) {
     return "F";
@@ -69,4 +69,4 @@ function getGrade(score) {
     return "B";
   } else return "A";
 }
-console.log(getGrade(65));
+console.log(getGrade(65)); */
