@@ -71,7 +71,7 @@ console.log(area(5)); */
 }
 console.log(getGrade(65)); */
 
-function vowelsAndConsonants(s) {
+/* function vowelsAndConsonants(s) {
   const vovwels = "aeiou";
 
   var cons = "";
@@ -88,3 +88,4 @@ function vowelsAndConsonants(s) {
 }
 
 console.log(vowelsAndConsonants("javascriptloop"));
+ */
