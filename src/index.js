@@ -115,7 +115,7 @@ console.log(vowelsAndConsonants("javascriptloop"));
 console.log(getLetter("bi"));
  */
 
-function getSecondLargest(nums) {
+/* function getSecondLargest(nums) {
   // Complete the function let first = nums[0]; let second = -1;
   let first = nums[0];
   let second = -1;
@@ -134,4 +134,4 @@ function getSecondLargest(nums) {
   return second;
 }
 
-console.log(getSecondLargest([0, 45, 56, 5676, 86]));
+console.log(getSecondLargest([1,2,3,4,5])); */
