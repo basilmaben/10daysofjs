@@ -90,7 +90,7 @@ console.log(getGrade(65)); */
 console.log(vowelsAndConsonants("javascriptloop"));
  */
 
-function getLetter(s) {
+/* function getLetter(s) {
   let letter;
   // Write your code here
   switch (true) {
@@ -113,3 +113,4 @@ function getLetter(s) {
   return letter;
 }
 console.log(getLetter("bi"));
+ */
