@@ -135,3 +135,14 @@ console.log(getLetter("bi"));
 }
 
 console.log(getSecondLargest([1,2,3,4,5])); */
+
+function reverseString(s) {
+  try {
+    s = s.split("").reverse().join("");
+  } catch (e) {
+    console.log(e.message);
+  } finally {
+    console.log(s);
+  }
+}
+console.log(reverseString("Yikes"));
