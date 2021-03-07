@@ -149,7 +149,7 @@ console.log(reverseString("Yikes"));
 //reverse string
  */
 
-function isPositive(a) {
+/* function isPositive(a) {
   if (a > 0) {
     return "YES";
   } else {
@@ -157,4 +157,4 @@ function isPositive(a) {
   }
 }
 
-console.log(isPositive(3));
+console.log(isPositive(3)); */
