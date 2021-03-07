@@ -136,7 +136,7 @@ console.log(getLetter("bi"));
 
 console.log(getSecondLargest([1,2,3,4,5])); */
 
-function reverseString(s) {
+/* function reverseString(s) {
   try {
     s = s.split("").reverse().join("");
   } catch (e) {
@@ -146,3 +146,5 @@ function reverseString(s) {
   }
 }
 console.log(reverseString("Yikes"));
+//reverse string
+ */
