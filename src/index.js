@@ -148,3 +148,13 @@ console.log(getSecondLargest([1,2,3,4,5])); */
 console.log(reverseString("Yikes"));
 //reverse string
  */
+
+function isPositive(a) {
+  if (a > 0) {
+    return "YES";
+  } else {
+    throw a === 0 ? new Error("Zero Error") : new Error("Negative Error");
+  }
+}
+
+console.log(isPositive(3));
