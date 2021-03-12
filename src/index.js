@@ -159,7 +159,7 @@ console.log(reverseString("Yikes"));
 
 console.log(isPositive(3)); */
 
-class Rectangle {
+/* class Rectangle {
   constructor(a, b) {
     this.length = a;
     this.width = b;
@@ -171,4 +171,4 @@ class Rectangle {
 
 var rec = new Rectangle(4, 5);
 
-console.log(rec);
+console.log(rec); */
