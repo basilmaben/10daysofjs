@@ -186,7 +186,7 @@ console.log(rec); */
 console.log(getCount([1, 2, 3, 4, 5, 12, 4, 5, 6]));
  */
 
-class Polygon {
+/* class Polygon {
   constructor(sides) {
     this.sides = sides;
   }
@@ -200,3 +200,4 @@ class Polygon {
 let triangle = new Polygon([3, 4, 5]);
 
 console.log(triangle.perimeter());
+ */
