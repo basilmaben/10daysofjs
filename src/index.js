@@ -173,7 +173,7 @@ var rec = new Rectangle(4, 5);
 
 console.log(rec); */
 
-function getCount(objects) {
+/* function getCount(objects) {
   var ctr = 0;
   for (var i = 0; i < objects.length; i++) {
     if (objects[i].x === objects[i].y) {
@@ -184,3 +184,4 @@ function getCount(objects) {
 }
 
 console.log(getCount([1, 2, 3, 4, 5, 12, 4, 5, 6]));
+ */
