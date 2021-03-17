@@ -202,7 +202,7 @@ let triangle = new Polygon([3, 4, 5]);
 console.log(triangle.perimeter());
  */
 
-class Rectangle {
+/* class Rectangle {
   constructor(w, h) {
     this.w = w;
     this.h = h;
@@ -226,3 +226,4 @@ let rect = new Rectangle(4, 5);
 
 console.log(`AREA OF SQUARE IS ${square.area()}`);
 console.log(`AREA OF RECTANGLE IS ${rect.area()}`);
+ */
