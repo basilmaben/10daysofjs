@@ -227,7 +227,7 @@ console.log(`AREA OF RECTANGLE IS ${rect.area()}`);
 
 console.log(sides([23, 4], [3, 5])) */
 
-function modifyArray(nums) {
+/* function modifyArray(nums) {
   var aws = function (n) {
     if (n % 2 === 0) return n * 2;
     else return n * 3;
@@ -236,4 +236,4 @@ function modifyArray(nums) {
   return newArray;
 }
 
-console.log(modifyArray([1, 2, 3, 4, 4]));
+console.log(modifyArray([1, 2, 3, 4, 4])); */
