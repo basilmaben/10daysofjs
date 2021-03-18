@@ -25,7 +25,6 @@ performOperation("12", "4.32", "is the shit");
 
 
  */
-
 /* function greeting(parameterVariable) {
   // This line prints 'Hello, World!' to the console:
   console.log("Hello, World!");
@@ -34,7 +33,6 @@ performOperation("12", "4.32", "is the shit");
 }
 console.log(greeting("Is cool"));
  */
-
 /* function factorial(n) {
   if (n === 0 || n === 1) {
     return 1;
@@ -44,7 +42,6 @@ console.log(greeting("Is cool"));
 }
 console.log(factorial(5));
  */
-
 /* function area(r) {
   const PI = Math.PI;
 
@@ -54,7 +51,6 @@ console.log(factorial(5));
   console.log("Perimeter is " + PI * 2 * r);
 }
 console.log(area(5)); */
-
 /* function getGrade(score) {
   // Write your code here
   if (score <= 5) {
@@ -70,7 +66,6 @@ console.log(area(5)); */
   } else return "A";
 }
 console.log(getGrade(65)); */
-
 /* function vowelsAndConsonants(s) {
   const vovwels = "aeiou";
 
@@ -89,7 +84,6 @@ console.log(getGrade(65)); */
 
 console.log(vowelsAndConsonants("javascriptloop"));
  */
-
 /* function getLetter(s) {
   let letter;
   // Write your code here
@@ -114,7 +108,6 @@ console.log(vowelsAndConsonants("javascriptloop"));
 }
 console.log(getLetter("bi"));
  */
-
 /* function getSecondLargest(nums) {
   // Complete the function let first = nums[0]; let second = -1;
   let first = nums[0];
@@ -135,7 +128,6 @@ console.log(getLetter("bi"));
 }
 
 console.log(getSecondLargest([1,2,3,4,5])); */
-
 /* function reverseString(s) {
   try {
     s = s.split("").reverse().join("");
@@ -148,7 +140,6 @@ console.log(getSecondLargest([1,2,3,4,5])); */
 console.log(reverseString("Yikes"));
 //reverse string
  */
-
 /* function isPositive(a) {
   if (a > 0) {
     return "YES";
@@ -158,7 +149,6 @@ console.log(reverseString("Yikes"));
 }
 
 console.log(isPositive(3)); */
-
 /* class Rectangle {
   constructor(a, b) {
     this.length = a;
@@ -172,7 +162,6 @@ console.log(isPositive(3)); */
 var rec = new Rectangle(4, 5);
 
 console.log(rec); */
-
 /* function getCount(objects) {
   var ctr = 0;
   for (var i = 0; i < objects.length; i++) {
@@ -185,7 +174,6 @@ console.log(rec); */
 
 console.log(getCount([1, 2, 3, 4, 5, 12, 4, 5, 6]));
  */
-
 /* class Polygon {
   constructor(sides) {
     this.sides = sides;
@@ -201,7 +189,6 @@ let triangle = new Polygon([3, 4, 5]);
 
 console.log(triangle.perimeter());
  */
-
 /* class Rectangle {
   constructor(w, h) {
     this.w = w;
@@ -227,8 +214,7 @@ let rect = new Rectangle(4, 5);
 console.log(`AREA OF SQUARE IS ${square.area()}`);
 console.log(`AREA OF RECTANGLE IS ${rect.area()}`);
  */
-
-function sides(literals, ...expressions) {
+/* function sides(literals, ...expressions) {
   // ES6 allows destructuring of arrays into multiple variables
   const [a, p] = expressions;
   // Perform this operation only once and assign to variable
@@ -239,4 +225,4 @@ function sides(literals, ...expressions) {
   return [s1, s2].sort();
 }
 
-console.log(sides([23, 4], [3, 5]));
+console.log(sides([23, 4], [3, 5])) */
