@@ -252,6 +252,6 @@ console.log(modifyArray([1, 2, 3, 4, 4])); */
     }
   }
   return max_value;
-}; */
+};
 
-console.log(getMaxLessThanK(34, 88));
+console.log(getMaxLessThanK(34, 88)); */
