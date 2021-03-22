@@ -258,11 +258,11 @@ console.log(getMaxLessThanK(34, 88)); */
 
 /*  mm/dd/yyy */
 
-function regexVar() {
-  /*
+/* function regexVar() {
+  
    * Declare a RegExp object variable named 're'
    * It must match a string that starts and ends with the same vowel (i.e., {a, e, i, o, u})
-   */
+  
   //  ^ => first item matches:
   // () => stores matching value captured within
   // [aeiou] => matches any of the characters in the brackets
@@ -275,11 +275,8 @@ function regexVar() {
   //  $ ensures that matched item is at end of the sequence
 
   let re = /^([aeiou]).+\1$/;
-
-  /*
-   * Do not remove the return statement
-   */
   return re;
 }
 
 console.log(regexVar("OOPS"));
+ */
