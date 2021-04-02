@@ -281,7 +281,7 @@ console.log(getMaxLessThanK(34, 88)); */
 console.log(regexVar("OOPS"));
  */
 
-function makeAnagram(a, b) {
+/* function makeAnagram(a, b) {
   let counter = {};
   let total = 0;
   Array.from(a).forEach((char) => {
@@ -301,4 +301,4 @@ function makeAnagram(a, b) {
   return total;
 }
 
-console.log(makeAnagram("b", "a", "as"));
+console.log(makeAnagram("b", "a", "as")); */
